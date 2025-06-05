@@ -3,12 +3,6 @@ Writeup for TryHackMe Network Serivces Lab - using nmap, enum4linux, smbclient, 
 
 By Ramyar Daneshgar 
 
-# THM-NetworkServices
-
-Writeup for TryHackMe Network Services Lab - using nmap, enum4linux, smbclient, netcat, msfvenom, and privilege escalation via SUID exploitation.
-
-By Ramyar Daneshgar
-
 ---
 
 ## Task 1: Get Connected
