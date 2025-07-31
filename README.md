@@ -21,9 +21,9 @@ Server Message Block (SMB) is a Layer 7 (application layer) protocol used to sha
 
 From a security perspective, SMB is notorious for misconfigurations. Misconfigured shares may:
 
-* Allow unauthorized access (e.g., null or anonymous sessions)
+* Allow unauthorized access (null or anonymous sessions)
 * Contain sensitive files like configuration backups, credentials, or SSH keys
-* Run legacy versions (e.g., SMBv1), which are susceptible to remote code execution exploits like EternalBlue (CVE-2017-0144)
+* Run legacy versions (SMBv1), which are susceptible to remote code execution exploits like EternalBlue (CVE-2017-0144)
 
 Understanding how SMB works is crucial for both attackers (reconnaissance and lateral movement) and defenders (hardening and monitoring).
 
