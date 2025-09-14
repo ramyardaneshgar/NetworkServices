@@ -7,8 +7,7 @@ By Ramyar Daneshgar
 
 ## Task 1: Get Connected
 
-To begin, I deployed the target machine within the TryHackMe VPN environment. This is essential in any CTF or red team simulation to ensure a secure, isolated network path to the target. My attacking system, Kali Linux, was connected through OpenVPN, which tunneled all traffic securely into the THM lab infrastructure. Without this initial network setup, I wouldn't be able to scan or interact with the target system at all.
-
+The assessment commenced with the deployment of the target system within a controlled VPN environment. Establishing this network configuration was a critical prerequisite, as it ensured an isolated and secure communication channel between the testing platform and the target. The attacking system, operating on Kali Linux, was connected through OpenVPN, creating an encrypted tunnel that safeguarded all traffic. This secure connectivity served as the foundation for subsequent reconnaissance and exploitation activities; without it, the target system would have been inaccessible for scanning or interaction.
 ---
 
 ## Task 2: Understanding SMB
@@ -245,19 +244,9 @@ cat /root/root.txt
 
 This confirmed successful privilege escalation and full system compromise.
 
----
-
-## Lessons Learned
-
-1. Full port scanning is essential—many services hide on non-default ports.
-2. SMB share misconfigurations can leak credentials, private keys, or sensitive data.
-3. Telnet should be fully deprecated; it often opens up command injection vectors.
-4. Default FTP accounts remain a low-hanging fruit for attackers.
-5. SUID binaries must be regularly audited to avoid local privilege escalation vectors.
 
 ---
 
-## Real-World Applicability
 
 * SMB exposure, SUID exploitation, and Telnet backdoors frequently appear in internal penetration tests and red team operations.
 * These techniques demonstrate how misconfiguration, not just exploits, can lead to domain compromise.
@@ -282,3 +271,10 @@ This exercise emphasized how foundational enumeration and layered exploitation a
 * SMB and FTP are often exposed internally with weak configurations.
 * Telnet backdoors reflect risks in IoT or legacy embedded systems.
 * SUID escalation is a common red team technique for lateral movement and root access.
+
+
+6. Full port scanning is essential—many services hide on non-default ports.
+7. SMB share misconfigurations can leak credentials, private keys, or sensitive data.
+8. Telnet should be fully deprecated; it often opens up command injection vectors.
+9. Default FTP accounts remain a low-hanging fruit for attackers.
+10. SUID binaries must be regularly audited to avoid local privilege escalation vectors.
