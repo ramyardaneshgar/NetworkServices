@@ -4,9 +4,6 @@ Network Serivces - using nmap, enum4linux, smbclient, netcat, msfvenom, and priv
 By Ramyar Daneshgar 
 
 ---
-
-## Task 1: Get Connected
-
 The assessment commenced with the deployment of the target system within a controlled VPN environment. Establishing this network configuration was a critical prerequisite, as it ensured an isolated and secure communication channel between the testing platform and the target. The attacking system, operating on Kali Linux, was connected through OpenVPN, creating an encrypted tunnel that safeguarded all traffic. This secure connectivity served as the foundation for subsequent reconnaissance and exploitation activities; without it, the target system would have been inaccessible for scanning or interaction.
 ---
 
