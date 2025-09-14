@@ -1,5 +1,5 @@
 # NetworkServices
-Network Serivces Lab - using nmap, enum4linux, smbclient, netcat, msfvenom, and privilege escalation via SUID exploitation.
+Network Serivces - using nmap, enum4linux, smbclient, netcat, msfvenom, and privilege escalation via SUID exploitation.
 
 By Ramyar Daneshgar 
 
